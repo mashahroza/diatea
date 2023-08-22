@@ -1,0 +1,348 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 100%;
+    position: relative;
+    background-color: #f7f7f7;
+  }
+  
+  *, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+
+  ul li {
+    /* list-style: none; */
+  }
+  
+  a, a:hover, a:visited, a:active {
+    text-decoration: none;
+  }
+ 
+.container {
+  position: relative;
+  width: 960px;
+  margin: 0 auto;
+  padding: 50px 70px 10px;
+  background-color: white;
+}
+
+.SvgIcon--meduzaLogo {
+    height: 45px;
+    margin-top: -2px;
+    width: 100px;
+  }
+  
+  header .set-block {
+      position: absolute;
+      bottom: 360px;
+      left: 315px;
+      z-index: 9999999;
+  }
+  
+  header .set-block:before {
+      content: "+";
+      display: block;
+      position: absolute;
+      color: #fff;
+      font-size: 65px;
+      right: -51px;
+      top: 175px;
+  }
+  
+  .Header {
+    background-color: #262626;
+    display: flex;
+    flex-flow: row nowrap;
+    height: 45px;
+    padding: 0 15px;
+  }
+  
+  .Header-left {
+      display: flex;
+      flex-basis: 16%;
+      flex-grow: 1;
+      height: 100%;
+  }
+  
+  .Header-meduzaLogo {
+    position: static;
+  }
+  
+  .Header-meduzaLogo {
+    display: flex;
+    height: 45px;
+    justify-content: center;
+  }
+  
+  a {
+    font-family: pfregal,georgia,serif!important;                               
+  }
+  
+  .SvgIcon--meduzaLogo {
+    height: 45px;
+    margin-top: -2px;
+    width: 100px;
+  }
+  
+  .SvgIcon {
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+    z-index: 1;
+    position: relative;
+  }
+  
+  .Header-center {
+      display: flex;
+      flex-grow: 2;
+      justify-content: center;
+      height: 100%;
+  }
+  
+  .Menu {
+    background-color: #262626;
+    display: flex;
+    font-size: 13px;
+    height: 45px;
+    justify-content: center;
+    letter-spacing: 1px;
+    width: 100%;
+    color: #fff;
+  }
+  
+  .Menu-item {
+    align-items: center;
+    display: flex;
+    padding: 0;
+    text-align: center;
+    padding: 0 15px;
+    color: #fff;
+  }
+  
+  .Menu-item, .Menu-link {
+    transition: color .15s ease-out 0s;
+  }
+  
+  .Menu {
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  
+  .Menu-link {
+    color: #fff;
+    line-height: 45px;
+    top: 1px;
+  }
+  
+  .Menu-link:hover {
+    color: #ccc;
+  }
+  
+  .Menu-item, .Menu-link {
+    transition: color .15s ease-out 0s;
+  }
+  
+  .Header-right {
+    align-items: flex-start;
+    display: flex;
+    flex-basis: 16%;
+    flex-direction: row;
+    flex-grow: 1;
+    height: 100%;
+    justify-content: flex-end;
+  }
+  
+  .HeaderButton--chat {
+    font-size: 13px;
+    letter-spacing: .05em;
+  }
+  
+  .HeaderButton {
+    align-items: center;
+    background: 0 0;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    fill: currentcolor;
+    height: 100%;
+    justify-content: flex-end;
+    margin: 0;
+    min-width: 45px;
+    padding: 0 15px;
+    position: relative;
+  }
+  
+  .HeaderButton:hover {
+    color: #ccc;
+  }
+  
+  button, select {
+    text-transform: none;
+  }
+  
+  .HeaderButton-link {
+    color: inherit;
+    cursor: pointer;
+    display: block;
+    padding-top: 2px;
+  }
+  
+  .HeaderButton-link, .Menu {
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  
+  .main__title {
+    color: #666666;
+    text-transform: none;
+    text-align: left;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 25px;
+    line-height: 1.4em;
+  }
+
+  .grey-text {
+    color: #666666;
+    line-height: 1.4em;
+  }
+
+  .secod__title {
+    color: #000;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: none;
+    line-height: 1.4em;
+  }
+
+  .photo-block {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .text {
+    font-size: 17px;
+    color: #000;
+  }
+  
+  li {
+    margin: 8px 0;
+  }
+
+  .decoration-text {
+    font-style: italic;
+  }
+
+.text-block {
+    border: double #b88b58;
+    padding: 7px 10px 10px;
+}
+
+.wrapper-form {
+    padding: 5px;
+    border: double #f7f7f7;
+    /* max-width: 500px; */
+    margin: 40px auto;
+}
+
+.forma {
+    background: #f7f7f7;
+    border-radius: 8px;
+    padding-top: 20px;
+    border-radius: 4px;
+    padding-top: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form {
+    width: 333px;
+    padding: 0;
+    margin: 30px auto 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .message {
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    margin: 40px 0 0 0;
+    font-size: 30px;
+    font-weight: 500;
+  }
+  
+  .form-label {
+    margin-bottom: 10px;
+    color: #000;
+    font-size: 17px;
+    line-height: 24px;
+  }
+  
+  .input-form {
+    display: block;
+    outline: 0;
+    color:#495060;
+    border: 1px solid #b88b58 !important;
+    border-radius: 5px !important;
+    -webkit-border-radius: 5px;
+    width: 333px;
+    padding: 10px !important;
+    height: 45px;
+    line-height: 68px;
+    margin: 0 0 20px !important;
+    background: transparent;
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    border: 1px solid #d7dbe6;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.2s;
+  }
+  
+  .btn {
+    background-color:  #b88b58;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    /* font-family: Unna,Garamond,"Times New Roman",serif; */
+    font-size: 17px;
+    font-weight: normal;
+    line-height: normal;
+    margin: 10px 0 10px;
+    padding: 12px 64px;
+    border: double #fff;
+    margin-bottom: 50px;
+  }
+
+  .comment-box {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #f7f7f7;
+    padding-bottom: 5px;
+  }
+
+  .comm__info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 5px;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #262626;
+    color: #fff;
+    height: 40px;
+  }
