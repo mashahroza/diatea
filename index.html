@@ -10,7 +10,8 @@
     <link href="css/index.css" media="all" rel="stylesheet" type="text/css">
     <link href="css/font-awesome.min.css" media="all" rel="stylesheet" type="text/css">
     <link href="styles.css" media="all" rel="stylesheet" type="text/css">
-    
+    <script src="js/dr-dtime.js" defer></script>
+    <script src="js/index.js" defer></script>
     <script>
     function showFunction(obj) {
         var data = $(obj).attr('datashow');
@@ -88,19 +89,23 @@
             <p class="text" style="margin:8px 0">Опасность заключается в том, что <b>46% взрослых с диабетом не подозревают о наличии у себя заболевания. </b>То есть больной даже не догадывается, что может в любой момент умереть от диабетической комы, остановки сердца или отказа почек, спровоцированных скачками сахара.</p>
             <p class="text">Но трагедия заключается в том, что <b>в 73% случаев таких страшных последствий можно было бы избежать, предоставив доступ к современным эффективным методам терапии.</b></p>
             <div class="photo-block" style="margin-top: 30px;">
-                <img src="images/2.png" alt="">
+                <img class="photo-1 absolute" src="images/2.png" alt="">
+                <div class="block-hidden block-1" style="width: 397px; height: 526px;"><img src="images/18.png" style="width: 200px; height: 200px;"></div>
             </div>
             <p class="text decoration-text" style="text-align: center;">Осложнения диабета из-за бракованной партии инсулина</p>
             <div class="photo-block" style="margin-top: 35px;">
-                <img src="images/3.png">
+                <img class="photo-2 absolute" src="images/3.png">
+                <div class="block-hidden block-2" style="width: 450px; height: 588px;"><img src="images/18.png" style="width: 200px; height: 200px;"></div>
             </div>
             <p class="text decoration-text" style="text-align: center;">Конечности перед ампутацией из-за нестабильного уровня глюкозы в крови</p>
             <div class="photo-block" style="margin-top: 35px;">
-                <img src="images/4.png">
+                <img class="photo-3 absolute" src="images/4.png">
+                <div class="block-hidden block-3" style="width: 485px; height: 392px;"><img src="images/18.png" style="width: 200px; height: 200px;"></div>
             </div>
             <p class="text decoration-text" style="text-align: center;">Диабетическая стопа. Возникает на 2 степени диабета</p>
             <div class="photo-block" style="margin-top: 35px;">
-                <img src="images/5.png">
+                <img class="photo-4 absolute" src="images/5.png">
+                <div class="block-hidden block-4" style="width: 375px; height: 270px;"><img src="images/18.png" style="width: 200px; height: 200px;"></div>
             </div>
             <p class="text decoration-text" style="text-align: center;">Слепота которая появилась как осложнение 1 стадии</p>
             <br>
@@ -173,12 +178,21 @@
 
             <div class="wrapper-form">
                 <div class="forma" id="forma">
+                    <div class="order-box">
                     <img alt="Bombsize" src="images/diatea.png" style="height: 330px;"/>
-                    <p class="secod__title">Успей заказать "Diatea" со скидкой 50%</p>
-                    <!-- <div style="background-color: rgba(0, 0, 0, 0.04); margin: 0 -33px;">
-                    <p style="font-size: 16px; margin-top: 20px; font-weight: 600;">Eski fiyat <b style="text-decoration: line-through; color: red;">1200</b> TRY</p>
-                    <p style="font-size: 18px; margin-bottom: 20px; font-weight: 600;">Yeni fiyat <b style="color: green;">599</b> TRY</p>
-                    </div> -->
+                    <div class="price" style="min-width: 200px;">
+                        <p class="price-list">Old price: <span class="old-price">50 EUR</span></p>
+                        <p class="price-list">New price: <span class="new-price">25 EUR</span></p>
+                    </div>
+                    </div>
+                    <p class="secod__title" style="text-align: center; font-size: 24px;">Успей заказать "Diatea" со скидкой 50% <br> <p style="color: red; font-weight: 700; font-size: 22px;">до
+
+                    <script type="text/javascript">
+                        dtime_nums(-1, true);
+                      </script> г. включительно</span>
+
+                    </p></p>
+    
                     <form name="form-index" action="api.php" method="post" class="form al-form order_form x_order_form" id="order_form">
                 
                     <label class="form-label">Имя:</label>
@@ -446,13 +460,13 @@
             </div>
             <div class="comment-box">
             <div class="comment-profile-box">
-            <p class="comm__info"><img src="images/23.jpg" class="ava-img"><strong>Doktor Tanaka</strong> </p>
+            <p class="comm__info"><img src="images/prof.png" style="width: 50px; height: 50px;" class="ava-img"><strong>Peter Nawroth</strong> </p>
             </div>
             <div class="comment-text-box">
             <p></p>
             <p>Esma, možete li mi reći, molim vas, koliko je dugo trajalo liječenje? <br>
             <br>
-            S poštovanjem, profesor Tanaka
+            S poštovanjem, profesor Peter Nawroth
             </p>
             <p></p>
             </div>
@@ -472,7 +486,7 @@
             </div>
             <div class="comment-box">
             <div class="comment-profile-box">
-            <p class="comm__info"><img src="images/23.jpg" class="ava-img"><strong>Aretha Tanaka</strong> </p>
+            <p class="comm__info"><img src="images/prof.png" style="width: 50px; height: 50px;" class="ava-img"><strong>Peter Nawroth</strong> </p>
             </div>
             <div class="comment-text-box">
             <p></p>

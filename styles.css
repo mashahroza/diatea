@@ -346,3 +346,55 @@ body {
     color: #fff;
     height: 40px;
   }
+
+  .order-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+  }
+
+  .old-price {
+    font-size: 22px;
+    font-weight: 600;
+    color: red;
+    text-decoration: line-through;
+    text-decoration-color: #000;
+    margin-left: 10px;
+  }
+
+  .new-price {
+    font-size: 24px;
+    font-weight: 700;
+    color: green;
+    margin-left: 10px;
+  }
+
+  .price-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 24px;
+    /* font-weight: 700; */
+    margin-bottom: 10px;
+  }
+
+  .absolute {
+    position: absolute;
+    z-index: 1;
+  }
+
+  .block-hidden {
+    background-color: rgba(0, 0, 0, 0.8);
+    position: relative;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .hidden {
+    display: none;
+  }
